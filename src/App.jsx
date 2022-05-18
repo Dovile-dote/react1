@@ -10,12 +10,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Zuikis></Zuikis>
-        <Tekstas text='bet koks tektas'></Tekstas>
+        <Tekstas text='bet koks tekstas'></Tekstas>
         <ZebraiIrBebrai sk={0}></ZebraiIrBebrai>
         <ZebraiIrBebrai sk={1}></ZebraiIrBebrai>
         <ZebraiIrBebrai sk={2}></ZebraiIrBebrai>
         <DuTekstai text1='Didelis tekstas' text2='Mazas tekstas'></DuTekstai>
-        <SpalvotiTekstai text1='Spalvoti tektai' text2='Spalvoti spalvoti' spalva='violet'></SpalvotiTekstai>
+        <SpalvotiTekstai text1='Spalvotas didelis tektas' text2='Spalvotas mazas tekstas' spalva='violet'></SpalvotiTekstai>
       </header>
     </div>
   );
